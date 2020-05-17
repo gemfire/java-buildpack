@@ -26,5 +26,5 @@
             </Host>
         </Engine>
     </Service>
-    <Listener className='org.apache.geode.modules.session.catalina.ClientServerCacheLifecycleListener'/>
+    <Listener log-level='fine' className='org.apache.geode.modules.session.catalina.ClientServerCacheLifecycleListener'/>
 </Server>
